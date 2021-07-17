@@ -1,7 +1,7 @@
 # Hugo OldNew Mashup
 
 **NB** This has been reverted to the old version of hugo-oldnew-mashup.
-The new version it at https://github.com/cshoredaniel/new-oldnew-mashup.
+The new version it at https://github.com/danielfdickinson/netlify-new-oldnew-mashup.
 
 Version 0.6.0
 
@@ -81,7 +81,7 @@ This work's copyright has expired in all known jurisdictions.
 ```
 
 Likewise create a file assets/CC-BY-SA-4.0 with the
-content of [CC-BY-SA-4.0 Plaintext](https://raw.githubusercontent.com/cshoredaniel/hugo-oldnew-mashup/master/assets/licenses/CC-BY-SA-4.0)
+content of [CC-BY-SA-4.0 Plaintext](https://raw.githubusercontent.com/danielfdickinson/netlify-oldnew-mashup/master/assets/licenses/CC-BY-SA-4.0)
 
 Then issue the command ``hugo new licenses/Expired.md`` and
 ``hugo new licenses/CC-BY-SA-4.0.md``.
@@ -95,5 +95,5 @@ whether the licenses can actually work together is another story).
 -------
 This theme Copyright (C) 2018 Daniel F. Dickinson and released under the
 Creative Commons BY (Attribution) 4.0 License.
-See [CC-BY-4.0 Plaintext](https://github.com/cshoredaniel/hugo-oldnew-mashup/blob/master/assets/licenses/CC-BY-4.0)
+See [CC-BY-4.0 Plaintext](https://github.com/danielfdickinson/netlify-oldnew-mashup/blob/master/assets/licenses/CC-BY-4.0)
 for terms.

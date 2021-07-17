@@ -2,13 +2,13 @@
 
 name = "OldNew Mashup"
 license = "CC-BY-4.0"
-licenselink = "https://github.com/cshoredaniel/hugo-pure-oldnew-mashup/blob/master/LICENSE.md"
+licenselink = "https://github.com/danielfdickinson/netlify-oldnew-mashup/blob/master/LICENSE.md"
 description = "Hugo Theme mixing old school design elements with new-era"
-homepage = "https://hugo-oldnew-mashup.thecshore.com/"
+homepage = "https://oldnew-mashup.wildtechgarden.ca/"
 keywords = ['hugo', 'old-school', 'modern', 'postmodern']
 features = ['blog', 'responsive']
-min_version = "0.51"
+min_version = "0.85.0"
 
 [author]
   name = "Daniel F. Dickinson"
-  homepage = "https://www.thecshore.com"
+  homepage = "https://www.danielfdickinson.ca"

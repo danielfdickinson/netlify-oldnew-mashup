@@ -6,16 +6,16 @@
 {{ end }}
 {{ block "links" . }}
     {{ if $.Site.BaseURL }}<base href="{{ $.Site.BaseURL }}">{{ end }}
-    {{ $b := resources.Get "dist/css/base.css" }}
-    {{ $bc := resources.Get "dist/css/base-color.css" }}
-    {{ $bcm := resources.Get "dist/css/base-modern.css" }}
-    {{ $bcmc := resources.Get "dist/css/base-modern-color.css" }}
+    {{ $bcssOptions := (dict "targetPath" "css/base.css" "outputStyle" "compressed" "enableSourceMap" "true" "includePaths" (slice "/assets/css"))  }}
+    {{ $bccssOptions := (dict "targetPath" "css/base-color.css" "outputStyle" "compressed" "enableSourceMap" "true"  "includePaths" (slice "/assets/css")) }}
+    {{ $bcmcssOptions := (dict "targetPath" "css/base-modern.css" "outputStyle" "compressed" "enableSourceMap" "true" "includePaths" (slice "/assets/css")) }}
+    {{ $bcmccssOptions := (dict "targetPath" "css/base-modern-color.css" "outputStyle" "compressed" "enableSourceMap" "true" "includePaths" (slice "/assets/css")) }}
+    {{ $b := resources.Get "css/abase.css" | resources.ToCSS $bcssOptions }}
+    {{ $bc := resources.Get "css/abase-color.css" | resources.ToCSS $bccssOptions }}
+    {{ $bcm := resources.Get "css/abase-modern.css" | resources.ToCSS $bcmcssOptions }}
+    {{ $bcmc := resources.Get "css/abase-modern-color.css" | resources.ToCSS $bcmccssOptions }}
     <link rel="stylesheet" href="{{ $b.RelPermalink }}"/>
     <link rel="stylesheet" href="{{ $bc.RelPermalink }}"/>
     <link rel="stylesheet" href="{{ $bcm.RelPermalink }}"/>
     <link rel="stylesheet" href="{{ $bcmc.RelPermalink }}"/>
-{{ end }}
-{{ block "scripts" . }}
-  {{ $js := resources.Get "dist/js/hugo-oldnew-mashup-min.js" }}
-  <script src="{{ $js.RelPermalink }}"></script>
 {{ end }}
