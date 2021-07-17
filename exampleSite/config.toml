@@ -5,7 +5,7 @@ languageCode = 'en-ca'
 languageLang = 'en'
 title = 'CShore OldNew Mashup Theme Test Site'
 enableGitInfo = 'true'
-theme = 'netlify-oldnew-mashup'
+theme = 'github.com/danielfdickinson/netlify-oldnew-mashup'
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 themesDir = "../.."
@@ -24,3 +24,6 @@ disableKinds = ['RSS', 'taxonomy', 'taxonomyTerm']
 
 [frontmatter]
 lastmod = ["lastmod",":git","date","publishDate"]
+
+[build]
+  useResourceCacheWhen = "fallback"
