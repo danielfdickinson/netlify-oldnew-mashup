@@ -8,7 +8,6 @@ enableGitInfo = 'true'
 theme = 'github.com/danielfdickinson/netlify-oldnew-mashup'
 pygmentsUseClasses = true
 pygmentsCodeFences = true
-themesDir = "../.."
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
