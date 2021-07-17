@@ -8,6 +8,8 @@ weight: 1
 
 # About
 
+Note that this is a no longer developed project, and is kept available for historical interest only.
+
 ## Section 1.10.32 of Cicero's “De finibus bonorum et malorum”
 Quoted from [Lorem Ipsum Generator](https://loremipsumgenerator.com/)
 
