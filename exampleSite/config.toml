@@ -26,3 +26,9 @@ lastmod = ["lastmod",":git","date","publishDate"]
 
 [build]
   useResourceCacheWhen = "fallback"
+
+[module]
+
+[[module.imports]]
+
+path = "github.com/danielfdickinson/netlify-oldnew-mashup"
