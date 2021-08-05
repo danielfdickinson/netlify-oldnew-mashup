@@ -4,10 +4,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/16c2c2f1-0a0f-491e-a4a1-1f83cb7ae2ea/deploy-status)](https://app.netlify.com/sites/oldnew-mashup/deploys)
 
+## ARCHIVED
+
 **NB** This project is not under active development and is stored for historical purposes only.
 A newer version is at https://github.com/danielfdickinson/netlify-new-oldnew-mashup.
 
-Version 0.6.0
+## Version 0.6.0
 
 [Hugo](https://gohugo.io) theme mixing old school design elements
 with new-era CSS3, HTML5, etc. That is the look is a combination of
